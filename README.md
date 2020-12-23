@@ -46,5 +46,5 @@ node producer.js [topic_name] [partition]
 
 > :warning: **HINT** :warning::
 >
-> - If you want to use Kafka as a queue such as RabbitMQ use same same groupId for consumers.
+> - If you want to use Kafka as a queue such as RabbitMQ use same groupId for consumers.
 > - If you want to use Kafka as a pub/sub such as Redis Pub/sub use different groupId for consumers.
